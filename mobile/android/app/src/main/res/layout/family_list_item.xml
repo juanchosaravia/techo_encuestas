@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/FamilyItemName"
+        android:text="Juan Martin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/FamilyItemAddress"
+        android:text="Cadiz 2013"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FamilyItemName"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/FamilyItemPhone"
+        android:text="Tel: 454353454"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FamilyItemAddress"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/FamilyItemCreatePoll"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/FamilyItemPriority"
+        android:src="@android:drawable/ic_dialog_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/FamilyItemCreatePoll"
+        android:layout_toLeftOf="@+id/FamilyItemCreatePoll"
+        android:layout_toStartOf="@+id/FamilyItemCreatePoll" />
+
+</RelativeLayout>

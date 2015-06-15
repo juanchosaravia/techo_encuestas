@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.droidcba.techorelevamiento.features.families.add.FamilyAddFragment">
+
+    <TextView
+        android:text="@string/family_add_body"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/FamilyAddFirstName"
+        style="@style/EditTextStyle"
+        android:hint="@string/family_add_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/FamilyAddLastName"
+        android:hint="@string/family_add_lastname"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/FamilyAddStreet"
+        android:hint="@string/family_add_street"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/FamilyAddStreetNumber"
+        android:hint="@string/family_add_streetnumber"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/FamilyAddPhone"
+        android:hint="@string/family_add_phone"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/FamilyAddCancel"
+            android:text="@string/family_add_cancel"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/FamilyAddAccept"
+            android:text="@string/family_add_add"
+            android:textColor="@color/primary_material_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

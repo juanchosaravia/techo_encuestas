@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Techo Relevamiento</string>
+
+    <string name="title_section1">Familias</string>
+    <string name="title_section2">Ayuda</string>
+    <string name="title_section3">Quienes somos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_family_add">FamilyAddActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="family_add_firstname">Nombre</string>
+    <string name="family_add_lastname">Apellido</string>
+    <string name="family_add_street">Calle</string>
+    <string name="family_add_streetnumber">Altura</string>
+    <string name="family_add_phone">Teléfono</string>
+    <string name="family_add_add">AGREGAR</string>
+    <string name="family_add_cancel">Cancelar</string>
+    <string name="family_add_title">Agrega una nueva Familia</string>
+    <string name="family_add_body">Complete este formulario para crear una nueva familia.</string>
+    <string name="family_add_empty_field">Campo requerido</string>
+</resources>
